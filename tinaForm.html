@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+ 
+        <title>Photographer's Prospect Inquiry Form</title>
+// I don't know what the line below does 
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        // Added tinaForm.css link to href below
+        <link rel="stylesheet" href="tinaForm.css">
+        
+        // I don't know how to choose the tachyons form library or why this url was chosen
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons/min.css">
+        <link rel="stylesheet" href="tinaForm.css">
+        <script src="tinaForm.js" /*async -- what is this?*/ defer></script>
+    </head>
+    <body
+        <h1>Joe's Photography - Contact Us</h1>
+        <br>
+        <br>
+        <br>
+        <div class="container"
+            <h2>For More Information ... Contact Joe's Photography</h2>
+        </div>
+        /* Don't really understand all the parts of this next line but ... here we go */
+        <form action=" /tina-handling-form-page" method="post" id="tina-form"> /* do I need a </form> here? */
+            <ul>
+                <li>
+                    <label for="firstName">First Name: </label>
+                    <input type="text" id="firstName" name="user-first-name">
+                </li>
+                <br>
+                <li>
+                    <label for="lastName">Last Name: </label>
+                    <input type="text" id="lastName" name="user-last-name">
+                </li>
+                <br>
+                <li>
+                    <label for="cellPhone">Cell Phone:</label>
+                    <input type="string" /* is this type a string? and how do I restrict telephone field */ id="cellPhone" name="user-cell-phone">
+                </li>
+                <br>
+
+                <li>
+                    <label for="">/* [insert label name for user - remove all spaces]  */</label>
+                    <input type="/* text or string or boolean etc */" id="" name="">
+                </li>
+
+                <li>
+                    <label for="">Alternative Phone:</label>
+                    <input type="/* text or string or boolean etc */" id="" name="">
+                </li>
+
+                <li>
+                    <label for="">/* Services interested in  */</label>
+                    <input type="/* text or string or boolean etc */" id="" name="">
+                </li>
+
+                <li>
+                    <label for="">/* [insert label name for user - remove all spaces]  */</label>
+                    <input type="/* text or string or boolean etc */" id="" name="">
+                </li>
+
+                <li>
+                    <label for="">/* How did you learn about us?  */</label>
+                    <input type="/* text or string or boolean etc */" id="" name="">
+                </li>
+
+
+            </ul>
+
+
+
+        /*Note:  html5 boilerplate places <script> with def in <body> but this should go in <head> ~ header;
+        Remove the line below 
+        */
+        //<script src="" async defer></script>
+    </body>
+</html>
